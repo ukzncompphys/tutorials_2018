@@ -2,7 +2,6 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-
 def simpsons(fun,x0,x1,n):
     #first, let's check we got a valid input for n.
     if not(type(n)==int):  
